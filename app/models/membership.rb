@@ -1,4 +1,6 @@
 class Membership < ActiveRecord::Base
-  has_many :members
-  has_many :teams
+  belongs_to :member
+  belongs_to :team
+  
+  scope :captains, :conditions => {:is_captain => true}
 end

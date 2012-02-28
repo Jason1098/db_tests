@@ -1,3 +1,3 @@
 class Member < ActiveRecord::Base
-  belongs_to :membership
+  has_many :membership
 end
