@@ -5,7 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-÷
+
 member1 = Member.create(first_name: 'Jason', last_name: 'Bush', gender: 'Alpha-Male', start_date: '01/01/2012', birthdate: '1972/04/19')
 member2 = Member.create(first_name: 'Shereef', last_name: 'Bishay', gender: 'Male', start_date: '01/02/2012', birthdate: '1977/mar/05')
 member3 = Member.create(first_name: 'Jolana', last_name: 'Bishay', gender: 'Female', start_date: '01/10/2012', birthdate: '1978/nov/19')
